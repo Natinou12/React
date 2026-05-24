@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    display: inline-block;
+
+    border: 1px solid rgba(143, 143, 143, 0.253);
+    border-radius: 10px;
+
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.329);
+
+    padding: 15px;
+
+    margin: 10px;
+
+    text-align: center;
+
+    width: 250px;
+}
+
+.card > .card-img {
+    max-width: 60%;
+    
+    height: auto;
+
+    margin-bottom: 10px;
+
+}
+
+.card > .card-tit {
+    margin: 0px;
+}
