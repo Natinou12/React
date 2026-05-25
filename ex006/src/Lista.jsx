@@ -4,7 +4,7 @@ function Lista(props) {
     const categoria = props.categoria
     const itensLista = [...props.itens]
 
-    // Eu não tenho a mínima ideia do que essa linha faz além de organizar alfabéticamente e ser uma arrow function
+    // Eu não tenho a mínima ideia do que essa linha faz além de organizar alfabeticamente e ser uma arrow function
     itensLista.sort((a, b) => a.nome.localeCompare(b.nome))
 
     /* Filtro de calorias
