@@ -16,7 +16,7 @@ function App() {
     }, 
     {
         nome: "pêra", calorias: 75, id: 5
-}f
+}
 ]
 
     const vegetais = [{
