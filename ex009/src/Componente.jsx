@@ -5,7 +5,7 @@ function Componente() {
     const [quantidade, setQuantidade] = useState(1)
     const [instrucoes, setInstrucoes] = useState("")
     const [metodo, setMetodo] = useState("")
-    const [entrega, setEntrega] = useState("")
+    const [entrega, setEntrega] = useState("Entrega")
 
     function handleTrocaNome(evento) {
         setNome(evento.target.value)
@@ -55,6 +55,9 @@ function Componente() {
                 <input type="radio" value="Entrega" checked={entrega === "Entrega"} onChange={handleTrocaEntrega}/>
                 Entrega
             </label>
+            <p>
+                Forma de envio: {entrega}
+            </p>
         </div>
     )
 }
