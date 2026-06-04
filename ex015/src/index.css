@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(36, 36, 36);
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.to-do-lista {
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 4rem;
+
+    color: white    ;
+}
+
+.colocar-tarefa {
+    display: block;
+
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 1.7rem;
+    font-weight: bold;
+
+    padding: 10px 20px;
+
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: background-color .5s ease;
+
+    margin: auto;
+
+    display: block;
+}
+
+.add-botao {
+    background-color: rgb(142, 0, 236);
+}
+
+.add-botao:hover {
+    background-color: rgb(91, 0, 151);
+}
+
+.deletar-botao {
+    background-color: rgb(175, 0, 0);
+}
+
+.deletar-botao:hover {
+    background-color: rgb(107, 0, 0);
+}
+
+.mover-botao {
+    background-color: rgb(0, 124, 196);
+}
+
+.mover-botao:hover {
+    background-color: rgb(0, 83, 131);
+}
+
+input[type="text"] {
+    font-size: 1.6rem;
+
+    padding: 10px;
+
+    border: 2px solid rgba(128, 128, 128, 0.555);
+    border-radius: 5px;
+
+    color: rgba(128, 128, 128, 0.644);
+}
+
+ol {
+    padding: 0;
+}
+
+li {
+    font-size: 2rem;
+    font-weight: bold;
+
+    padding: 15px;
+
+    background-color: rgb(214, 214, 214);
+
+    margin-bottom: 10px;
+
+    border: 3px solid rgb(165, 165, 165);
+    border-radius: 5px;
+
+    display: flex;
+
+    align-items: center;
+}
+
+.texto {
+    flex: 1;
+}
+
+.deletar-botao, .mover-botao {
+    padding: 8px 12px;
+
+    font-size: 1.4rem;
+
+    margin-left: 10px;
+}
