@@ -1,2 +1,82 @@
 @charset "UTF-8";
 
+body {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    background-color: rgb(228, 228, 228);
+}
+
+.cronometro {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    border: 5px solid rgb(179, 0, 179);
+    border-radius: 50px;
+
+    background-color: white;
+
+    padding: 30px;
+}
+
+.display {
+    font-size: 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+
+    color: rgb(180, 180, 180);
+
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
+
+    margin-bottom: 25px;
+}
+
+.controles > button {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    padding: 10px 20px;
+
+    margin: 5px;
+
+    min-width: 125px;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    color: white;
+
+    transition: background-color .5s ease;
+}
+
+.começar-botao {
+    background-color: rgb(0, 190, 0);
+}
+
+.começar-botao:hover {
+    background-color: rgb(0, 148, 0);
+}
+
+.parar-botao {
+    background-color: rgb(219, 0, 0);
+}
+
+.parar-botao:hover {
+    background-color: rgb(175, 0, 0);
+}
+
+.resetar-botao {
+    background-color: rgb(216, 0, 216);
+}
+
+.resetar-botao:hover {
+    background-color: rgb(173, 0, 173);
+}
